@@ -1,0 +1,18 @@
+{
+  "name": "@major-mann/graphql-tool-directive-extend",
+  "version": "0.0.1",
+  "description": "Takes a schema and SDL defining directives to be added and adds them to the schema",
+  "main": "src/index.js",
+  "keywords": [
+    "graphql",
+    "directive",
+    "merge",
+    "extend"
+  ],
+  "author": "Calvin Mann <calvinmann+npm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@major-mann/graphql-tool-merge-ast": "0.0.1",
+    "graphql": "^14.2.1"
+  }
+}
